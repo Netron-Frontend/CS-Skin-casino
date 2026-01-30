@@ -6,4 +6,6 @@ export const HeaderContentBox = styled.div`
     justify-content: space-between;
     width: 100%;
 		height: 46px;
+		background: #04081F;
+		color: #fff;
 `

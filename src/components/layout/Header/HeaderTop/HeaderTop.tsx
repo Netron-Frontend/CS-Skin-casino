@@ -12,8 +12,7 @@ const HeaderTop = () => {
                      flexDirection: 'row',
                      alignItems: 'center',
                      gap: '20px',
-
-            }}
+                 }}
             >
               <a href="#" style={{color: "#5D6A81"}}>FAIR GAME</a>
               <a href="#" style={{color: "#5D6A81"}}>Terms & Conditions</a>
