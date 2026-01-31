@@ -1,11 +1,11 @@
 import {HeaderTopBox} from "./HeaderTop.styled.ts";
-import {Container} from "../Header.styled.ts";
+import Container from '@mui/material/Container';
 
 const HeaderTop = () => {
 
   return (
     <HeaderTopBox>
-        <Container>
+        <Container sx={{display: 'flex', justifyContent: 'space-between'}}>
             <div
                  style={{
                      display: 'flex',

@@ -1,10 +1,10 @@
 import {HeaderContentBox} from "./HeaderContent.styled.ts";
-import {Container} from "../Header.styled.ts";
+import Container from '@mui/material/Container';
 
 const HeaderContent = () => {
   return (
     <HeaderContentBox>
-      <Container>
+        <Container sx={{display: 'flex', justifyContent: 'space-between'}}>
           <a href="/" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center' }}><img src="/HomePage/logo.svg" alt=""/>CS Skin casino</a>
           <div style={{display: 'flex', justifyContent: 'space-between', gap: '14px', alignItems: 'center', marginRight: 'auto', marginLeft: '68px'}}>
               <a href="#" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center' }}><img style={{width: '24px', height: '24px'}} src="/HomePage/HeaderContent/users.svg" alt="users"/>111111</a>
