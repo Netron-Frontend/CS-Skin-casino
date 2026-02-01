@@ -19,9 +19,9 @@ const HeaderTop = () => {
               <a href="#" style={{color: "#5D6A81", fontSize: '12px', fontFamily: "Libre Franklin, sans-serif", fontOpticalSizing: 'auto', fontWeight: '400'}}>Privacy Policy</a>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '20px'}}>
-              <a href="#"><img src="/HomePage/socials/discord.svg" alt="discord"/></a>
-              <a href="#"><img src="/HomePage/socials/instagram.svg" alt="instagram"/></a>
-              <a href="#"><img src="/HomePage/socials/telegram.svg" alt="telegram"/></a>
+              <a href="#"><img src="/Header/socials/discord.svg" alt="discord"/></a>
+              <a href="#"><img src="/Header/socials/instagram.svg" alt="instagram"/></a>
+              <a href="#"><img src="/Header/socials/telegram.svg" alt="telegram"/></a>
             </div>
         </Container>
     </HeaderTopBox>

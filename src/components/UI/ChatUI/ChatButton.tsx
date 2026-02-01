@@ -14,7 +14,7 @@ const ChatButton = () => {
       }}
               onClick={() => {}}>
         <a href="#" style={{backgroundColor: '#70CEFF', borderRadius: '50%', width: '100%'}}>
-          <img src="/Chat/send_button.svg" alt="chat_button" style={{width: '24px', height: '24px'}}/>
+          <img src="/ChatImages/send_button.svg" alt="chat_button" style={{width: '24px', height: '24px'}}/>
         </a>
       </button>
   )
