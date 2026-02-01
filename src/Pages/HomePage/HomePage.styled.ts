@@ -2,8 +2,14 @@
 import styled from "styled-components";
 
 export const HomePageWrapper = styled.div`
-		width: 100vw;
-		height: 100%;
+		flex: 1;
+		min-height: calc(100vh - 80px);
 		padding: 14px 24px;
-		position: relative;
+		margin: 0 auto;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		margin-left: 193px;
+		margin-right: 315px;
+		
 `
