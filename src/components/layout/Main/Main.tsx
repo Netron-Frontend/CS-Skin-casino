@@ -7,7 +7,7 @@ interface MainProps {
 
 const Main = ({ children }: MainProps) => {
   return (
-    <div style={{ backgroundColor: "#04081F", maxWidth: "100vw", minHeight: "100vh", flex: "1 0 auto", display: 'flex'}}>
+    <div style={{ backgroundColor: "#04081F", maxWidth: "100vw", minHeight: "100vh", flex: "1 0 auto", display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between'}}>
 		    <Sidebar />
 		    {children}
 		    <Chat />

@@ -6,10 +6,12 @@ export const ChatWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: flex-start;
     background: #04081F;
     color: #D8D8D8;
     gap: 26px;
-    position: sticky;
+    position: fixed;
+    top: 80px;
     right: 0px;
     margin-top: 1px;
     padding-top: 42px;
