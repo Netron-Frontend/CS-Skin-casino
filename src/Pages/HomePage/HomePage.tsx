@@ -1,9 +1,13 @@
 import {HomePageWrapper} from "./HomePage.styled.ts";
+import Banner from "../../components/HomePageComponents/Banner/Banner.tsx";
+import Games from "../../components/HomePageComponents/Games/Games.tsx";
 
 const HomePage = () => {
 	return (
 			<HomePageWrapper>
-					<img src="/HomePage/MainHomePage/advertising.png" alt="" style={{ width: "100%", borderRadius: '8px'}} />
+					<Banner />
+					<Games/>
+
 			</HomePageWrapper>
 	)
 }
