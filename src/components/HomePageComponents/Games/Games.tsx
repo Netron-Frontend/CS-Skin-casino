@@ -17,8 +17,7 @@ const Games = () => {
 								  justifyContent: 'space-between',
 								  alignItems: 'center',
 								  color: '#fff'
-						  }}><img src="/HomePage/UI/Games.svg" alt=""/>Games
-						  </div>
+						  }}><img src="/HomePage/UI/Games.svg" alt=""/>Games</div>
 						  <button style={{display: 'flex', gap: '3px', flexDirection: 'row', alignItems: 'center', color: '#fff'}}>
 								  <img src="/HomePage/UI/Calender.svg" alt=""/>Daily<img src="/HomePage/UI/down_line.svg" alt=""/>
 						  </button>
