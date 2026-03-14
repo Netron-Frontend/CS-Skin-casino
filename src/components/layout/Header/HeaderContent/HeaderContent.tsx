@@ -1,11 +1,11 @@
-import {HeaderContentBox} from "./HeaderContent.styled.ts";
-import Container from '@mui/material/Container';
+import { HeaderContentBox } from './HeaderContent.styled.ts'
+import Container from '@mui/material/Container'
 
 const HeaderContent = () => {
   return (
     <HeaderContentBox>
         <Container maxWidth="lg" sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-          <a href="/" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center' }}><img src="/Header/logo.svg" alt=""/>CS Skin casino</a>
+          <a href="/public" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center' }}><img src="/Header/logo.svg" alt=""/>CS Skin casino</a>
           <div style={{display: 'flex', justifyContent: 'space-between', gap: '14px', alignItems: 'center', marginRight: 'auto', marginLeft: '68px'}}>
               <a href="#" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center', fontSize: '12px', fontFamily: "Libre Franklin, sans-serif", fontOpticalSizing: 'auto', fontWeight: '400'}}><img style={{width: '24px', height: '24px'}} src="/Header/HeaderContent/users.svg" alt="users"/>111111</a>
               <a href="#" style={{display: 'flex', justifyContent: 'space-between', gap: '3px', alignItems: 'center', fontSize: '12px', fontFamily: "Libre Franklin, sans-serif", fontOpticalSizing: 'auto', fontWeight: '400'}}><img style={{width: '24px', height: '24px'}} src="/Header/HeaderContent/gift.svg" alt="gift"/>Daily Free</a>
